@@ -1,6 +1,6 @@
 var lastSong = null;
 var selection = null;
-var playlist = ["audio/13.wav", "audio/12.wav", "audio/11.wav", "audio/10.wav", "audio/9.wav", "audio/7.wav", "audio/8.wav", "audio/6.wav", "audio/5.wav", "audio/4.wav", "audio/3.wav", "audio/2.wav",]; // List of Songs
+var playlist = [ "audio/9.wav", "audio/7.wav", "audio/8.wav", "audio/6.wav", "audio/5.wav", "audio/4.wav", "audio/3.wav", "audio/2.wav",]; // List of Songs
 var player = document.getElementById("audioplayer"); // Get Audio Element
 player.autoplay=true;
 player.addEventListener("ended", selectRandom); // Run function when song ends
