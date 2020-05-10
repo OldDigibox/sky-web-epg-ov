@@ -15,6 +15,16 @@ body {
     background: #111;
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     background: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
     background-position: top;
