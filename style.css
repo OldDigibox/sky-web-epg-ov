@@ -55,7 +55,7 @@ main {
 
     .menulisting li {
         width: 100%;
-        height: 80%;
+        height: 31.5px;
         margin: 5px 0px;
         background: rgb(0, 0, 255);
         list-style-type: none;
