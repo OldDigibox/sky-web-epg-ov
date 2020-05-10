@@ -30,6 +30,11 @@ a:hover {
     text-decoration: none;
 }
 
+a:active {
+    color: #0000b3;
+    text-decoration: none;
+}
+
 main {
     background: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
     background-position: top;
