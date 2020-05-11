@@ -125,7 +125,7 @@ li .num {
 
 @font-face {
     font-family: 'Zurich';
-    src: url('zurich_black_extended_bt-webfont.woff2') format('woff2'), url('zurich_black_extended_bt-webfont.woff') format('woff');
+    src: url('Zurich Bold Extended.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
