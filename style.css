@@ -5,6 +5,15 @@
 
 :root {
     font-size: 16px;
+    --font-colour: white;
+    --main-colour: rgb(0, 0, 255);
+    --sub-colour: rgb(0, 0, 179);
+    --listnum-colour: rgb(126, 126, 255);
+    --main-colour-hover: #FCDA25;
+    --sub-colour-hover: rgb(197, 197, 0);
+    --listnum-colour-hover: rgb(0, 0, 179);
+    --font-colour-hover: rgb(0, 0, 179);
+    --background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
 }
 
 body {
@@ -16,27 +25,11 @@ body {
 }
 
 a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0000b3;
-    text-decoration: none;
-}
-
-a:active {
-    color: #0000b3;
     text-decoration: none;
 }
 
 main {
-    background: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
+    background: var(--background-image);
     background-position: top;
     background-size: 100%;
     width: 800px;
@@ -62,9 +55,9 @@ main {
         width: 100%;
         height: 31.5px;
         margin: 1px 0px;
-        background: rgb(0, 0, 255);
+        background: var(--main-colour);
         list-style-type: none;
-        color: white;
+        color: var(--font-colour);
         display: flex;
         align-items: center;
         font-size: 1.6rem;
@@ -73,28 +66,31 @@ main {
         .menulisting li:nth-of-type(1) {
             margin-top: 0px;
         }
+    .menulisting a {
+        color: var(--font-colour);
+    }
 
 li .num {
-    background: rgb(0, 0, 179);
+    background: var(--sub-colour);
     width: 60px;
     height: 100%;
     margin: 0px 10px;
-    color: rgb(126, 126, 255);
+    color: var(--listnum-colour);
     text-align: center;
 }
 
 .menulisting li:hover {
-    background: yellow;
-    color: rgb(0, 0, 179);
+    background: var(--main-colour-hover);
+    color: var(--font-colour-hover);
 }
 
     .menulisting li:hover .num {
-        background: rgb(197, 197, 0);
-        color: rgb(0, 0, 179);
+        background: var(--sub-colour-hover);
+        color: var(--listnum-colour-hover);
     }
 
     .menulisting li:hover a {
-        color: rgb(0, 0, 179);
+        color: var(--font-colour-hover);
     }
 
 .links {
