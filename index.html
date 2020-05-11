@@ -29,48 +29,86 @@
 </head>
     <body>
         <main>
-            <section class="menulisting">
-                <li>
+            <!--Landing Page-->
+            <section class="menulisting" id="main">
+                <li tabindex="1">
                     <div class="num">1</div>
                     ALL CHANNELS
                 </li>
-                <li>
+                <li tabindex="2">
                     <div class="num">2</div>
                     ENTERTAINMENT
                 </li>
-                <li>
+                <li tabindex="3">
                     <div class="num">3</div>
                     LIFESTYLE & CULTURE
                 </li>
-                <li>
+                <li tabindex="4">
                     <div class="num">4</div>
                     MOVIES
                 </li>
-                <li>
+                <li tabindex="5">
                     <div class="num">5</div>
                     SPORTS
                 </li>
-                <li>
+                <li tabindex="6">
                     <div class="num">6</div>
                     NEWS
                 </li>
-                <li>
+                <li tabindex="7">
                     <div class="num">7</div>
                     DOCUMENTARIES
                 </li>
-                <li>
+                <li tabindex="8">
                     <div class="num">8</div>
                     KIDS
                 </li>
-                <li>
+                <li tabindex="9">
                     <div class="num">9</div>
                     MUSIC
                 </li>
-                <li>
+                <li tabindex="10" onclick="toPage('main', 'more')">
                     <div class="num">0</div>
-                    <a href="more.html">
-                        MORE...
-                    </a>
+                    MORE...
+                </li>
+            </section>
+            <!--More Page-->
+            <section class="menulisting" id="more">
+                <li>
+                    <div class="num">1</div>
+                    RADIO
+                </li>
+                <li>
+                    <div class="num">2</div>
+                    SHOPPING
+                </li>
+                <li>
+                    <div class="num">3</div>
+                    RELIGION
+                </li>
+                <li>
+                    <div class="num">4</div>
+                    INTERNATIONAL
+                </li>
+                <li>
+                    <div class="num">5</div>
+                    GAMING & DATING
+                </li>
+                <li>
+                    <div class="num">6</div>
+                    SPECIALIST
+                </li>
+                <li>
+                    <div class="num">7</div>
+                    ADULT
+                </li>
+                <li>
+                    <div class="num">8</div>
+                    CUSTOM PAGES
+                </li>
+                <li onclick="toPage('more', 'main')">
+                    <div class="num">0</div>
+                    BACK UP
                 </li>
             </section>
         </main>

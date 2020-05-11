@@ -39,6 +39,10 @@ main {
     justify-content: center;
 }
 
+.menulisting#more {
+    display: none;
+}
+
 .menulisting {
     width: 65%;
     height: 410px;
@@ -90,6 +94,20 @@ li .num {
     }
 
     .menulisting li:hover a {
+        color: var(--font-colour-hover);
+    }
+
+.menulisting li:focus {
+    background: var(--main-colour-hover);
+    color: var(--font-colour-hover);
+}
+
+    .menulisting li:focus .num {
+        background: var(--sub-colour-hover);
+        color: var(--listnum-colour-hover);
+    }
+
+    .menulisting li:focus a {
         color: var(--font-colour-hover);
     }
 
