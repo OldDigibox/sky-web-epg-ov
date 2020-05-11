@@ -31,43 +31,43 @@
         <main>
             <!--Landing Page-->
             <section class="menulisting" id="main">
-                <li tabindex="1">
+                <li>
                     <div class="num">1</div>
                     ALL CHANNELS
                 </li>
-                <li tabindex="2">
+                <li>
                     <div class="num">2</div>
                     ENTERTAINMENT
                 </li>
-                <li tabindex="3">
+                <li>
                     <div class="num">3</div>
                     LIFESTYLE & CULTURE
                 </li>
-                <li tabindex="4">
+                <li>
                     <div class="num">4</div>
                     MOVIES
                 </li>
-                <li tabindex="5">
+                <li>
                     <div class="num">5</div>
                     SPORTS
                 </li>
-                <li tabindex="6">
+                <li>
                     <div class="num">6</div>
                     NEWS
                 </li>
-                <li tabindex="7">
+                <li>
                     <div class="num">7</div>
                     DOCUMENTARIES
                 </li>
-                <li tabindex="8">
+                <li>
                     <div class="num">8</div>
                     KIDS
                 </li>
-                <li tabindex="9">
+                <li>
                     <div class="num">9</div>
                     MUSIC
                 </li>
-                <li tabindex="10" onclick="toPage('main', 'more')">
+                <li  10" onclick="toPage('main', 'more')">
                     <div class="num">0</div>
                     MORE...
                 </li>
@@ -102,11 +102,22 @@
                     <div class="num">7</div>
                     ADULT
                 </li>
-                <li>
+                <li onclick="toPage('more', 'custom')">
                     <div class="num">8</div>
                     CUSTOM PAGES
                 </li>
                 <li onclick="toPage('more', 'main')">
+                    <div class="num">0</div>
+                    BACK UP
+                </li>
+            </section>
+            <!--More Page-->
+            <section class="menulisting" id="custom">
+                <li onclick="lightsOff()">
+                    <div class="num">1</div>
+                    LIGHT SWITCH
+                </li>
+                <li onclick="toPage('custom', 'more')">
                     <div class="num">0</div>
                     BACK UP
                 </li>

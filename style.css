@@ -39,8 +39,12 @@ main {
     justify-content: center;
 }
 
-.menulisting#more {
+.menulisting[id] {
     display: none;
+}
+
+.menulisting#main {
+    display: flex;
 }
 
 .menulisting {
