@@ -27,8 +27,8 @@ const set = {
     2: "nightclub",
 }
 
-const hour = new Date().getHours()
-console.log(intervals[hour]);
+const hour = new Date().getHours();
+console.log(set[hour]);
 
 // AUDIO PLAYER
 var lastSong = null;
