@@ -10,6 +10,11 @@ morning.setHours(6);
 daytime.setHours(11);
 primetime.setHours(19);
 nightclub.setHours(22);
+early_morning.getTimezoneOffset();
+morning.getTimezoneOffset();
+daytime.getTimezoneOffset();
+primetime.getTimezoneOffset();
+nightclub.getTimezoneOffset();
 
 // AUDIO PLAYER
 var lastSong = null;
