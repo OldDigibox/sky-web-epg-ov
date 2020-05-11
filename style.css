@@ -121,6 +121,7 @@ li .num {
     width: 100%;
     font-size: 1.5rem;
     text-align: right;
+    color: var(--main-colour);
 }
 
 @font-face {
