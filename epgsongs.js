@@ -26,7 +26,7 @@ const playlist = [{
 ]
 
 let nowPlaying = null;
-const player = document.getElementById("player"); // Get Audio Element
+// const player = document.getElementById("player"); // Get Audio Element
 // player.autoplay = true;
 // player.addEventListener("ended", selectRandom); // Run function when song ends
 
