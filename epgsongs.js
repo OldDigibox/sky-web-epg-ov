@@ -5,11 +5,11 @@ morning = new Date();
 daytime = new Date();
 primetime = new Date();
 nightclub = new Date();
-early_morning.setHours(1);
-morning.setHours(5);
-daytime.setHours(10);
-primetime.setHours(18);
-nightclub.setHours(21);
+early_morning.setUTCHours(1);
+morning.setUTCHours(5);
+daytime.setUTCHours(10);
+primetime.setUTCHours(18);
+nightclub.setUTCHours(21);
 
 // AUDIO PLAYER
 var lastSong = null;
