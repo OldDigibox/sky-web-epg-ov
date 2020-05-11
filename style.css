@@ -55,12 +55,13 @@ main {
     flex-direction: column;
     align-items: center;
     user-select: none;
+    position: relative;
 }
 
     .menulisting li {
         width: 100%;
         height: 31.5px;
-        margin: 5px 0px;
+        margin: 1px 0px;
         background: rgb(0, 0, 255);
         list-style-type: none;
         color: white;
@@ -95,6 +96,14 @@ li .num {
     .menulisting li:hover a {
         color: rgb(0, 0, 179);
     }
+
+.links {
+    position: absolute;
+    bottom: -6%;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: right;
+}
 
 @font-face {
     font-family: 'Zurich';
