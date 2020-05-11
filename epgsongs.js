@@ -38,7 +38,7 @@ function selectRandom() {
     // pick a random song out of the remaining songs
     const selection = filteredSongs[Math.floor(Math.random() * filteredSongs.length)]
     lastSong = selection; // Remember last song
-    // player.src = selection; // Tell HTML the location of the new Song
+    player.src = selection; // Tell HTML the location of the new Song
     console.log(`Now playing ${selection}`);
 }
 
