@@ -6,8 +6,8 @@
 :root {
     font-size: 16px;
     --font-colour: white;
-    --main-colour: rgb(0, 0, 255);
-    --sub-colour: rgb(0, 0, 179);
+    --main-colour: rgb(0, 37, 201);
+    --sub-colour: rgb(0, 26, 143);
     --listnum-colour: rgb(126, 126, 255);
     --main-colour-hover: #FCDA25;
     --sub-colour-hover: rgb(197, 197, 0);
@@ -82,7 +82,7 @@ li .num {
     background: var(--sub-colour);
     width: 60px;
     height: 100%;
-    margin: 0px 10px;
+    margin: 0px 10px 0px 5px;
     color: var(--listnum-colour);
     text-align: center;
 }
