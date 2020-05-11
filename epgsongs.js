@@ -1,6 +1,5 @@
 // TIME OF DAY
-var early_morning, morning, daytime, primetime, nightclub;
-const intervals = {
+const set = {
     2: "early_morning",
     3: "early_morning",
     4: "early_morning",
@@ -34,19 +33,19 @@ console.log(intervals[hour]);
 // AUDIO PLAYER
 var lastSong = null;
 var selection = null;
-if (early_morning) {
+if (set = "early_morning") {
     var playlist = ["audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"];
 }
-if (morning) {
+if (set = "morning") {
     var playlist = ["audio/morning/1998_trk04.mp3", "audio/morning/cool_groovings.mp3", "audio/morning/game_on.mp3", "audio/morning/half_pipe.mp3", "audio/morning/hope.mp3", "audio/morning/internationale!.mp3", "audio/morning/move_it.mp3", "audio/morning/muted.mp3", "audio/morning/no_saints.mp3", "audio/morning/swingin_partay.mp3"];
 }
-if (daytime) {
+if (set = "daytime") {
     var playlist = ["audio/primetime/1998_trk04.mp3", "audio/primetime/apocalypse(remix).mp3", "audio/primetime/bondicular(remix).mp3", "audio/primetime/choir_of_impending_breakbeat.mp3", "audio/primetime/cine2000.mp3", "audio/primetime/kompressor(remix).mp3", "audio/primetime/no_saints.mp3", "audio/primetime/orchestral_hardcore(remix).mp3", "audio/primetime/orchestral_hardcore.mp3", "audio/primetime/quest.mp3", "audio/primetime/swingin_partay.mp3", "audio/primetime/the_trap.mp3"];
 }
-if (primetime) {
+if (set = "primetime") {
     var playlist = ["audio/daytime/1998_trk04.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix)", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"];
 }
-if (nightclub) {
+if (set = "nightclub") {
     var playlist = ["audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3"]; 
 }
 var player = document.getElementById("player"); // Get Audio Element
