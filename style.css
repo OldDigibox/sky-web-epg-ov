@@ -51,17 +51,6 @@ div.guide {
     justify-content: center;
 }
 
-#guide {
-    background: var(--background-image-blank);
-    background-position: top;
-    background-size: 100%;
-    width: 800px;
-    height: 600px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
 .menulisting[id] {
     display: none;
 }
