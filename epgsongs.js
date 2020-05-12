@@ -43,4 +43,5 @@ function selectRandom() {
 }
 
 selectRandom(); // Select initial song
-$('player')[0].play(); // Start Song
+function(val) { setTimeout(function () player[val].play(); }, 1000)}(i); // Start song
+// $('player')[0].play(); // Start Song
