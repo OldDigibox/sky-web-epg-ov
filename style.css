@@ -124,6 +124,28 @@ li .num {
     color: var(--main-colour);
 }
 
+.guidelisting {
+    width: 150%;
+    height: 410px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+    position: relative;
+}
+
+.titles {
+    position: absolute;
+    top: -20%;
+    left: 5%;
+    width: 100%;
+    font-size: 2rem;
+    text-align: left;
+    color: var(--main-colour);
+}
+
 @font-face {
     font-family: 'Zurich';
     src: url('Zurich Bold Extended.woff') format('woff');
