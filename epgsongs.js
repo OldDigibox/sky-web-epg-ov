@@ -43,4 +43,4 @@ function selectRandom() {
 }
 
 selectRandom(); // Select initial song
-player.play(); // Start Song
+$('player')[0].play(); // Start Song
