@@ -40,8 +40,8 @@ main {
     justify-content: center;
 }
 
-div.guide {
-    background: url("https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg");
+$('id = "guide"') {
+    background-image: url("https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg");
     background-position: top;
     background-size: 100%;
     width: 800px;
