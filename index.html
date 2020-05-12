@@ -12,8 +12,8 @@
         <iframe  allow="autoplay" style="display:none" id="player" type="audio/mpeg">
         </iframe>
         <!--Landing Page-->
-        <section class="menulisting" id="main">
-            <li onclick="toPage('main', 'guide')">
+        <section class="menulisting" id="front">
+            <li onclick="toPage('front', 'guide')">
                 <div class="num">1</div>
                 ALL CHANNELS
             </li>
@@ -123,7 +123,7 @@
             </div>
         </section>
         <!--Channel Guide-->
-        <section class="menulisting" id="guide">
+        <section class="menulisting" id="guide" style="background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');">
             <div class="titles">ALL CHANNELS</div>
             <div class="guidelisting">
                 <li>
@@ -206,6 +206,7 @@
                 </li>
             </div>
             <div class="links">
+                <a style="background-color:yellow; color:black" onclick="toPage('guide', 'main')">BACK UP</a>
                 <a>Anytime</a>
                 <a>Planner</a>
                 <a>A-Z</a>

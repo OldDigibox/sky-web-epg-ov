@@ -13,7 +13,8 @@
     --sub-colour-hover: rgb(197, 197, 0);
     --listnum-colour-hover: rgb(0, 0, 179);
     --font-colour-hover: rgb(0, 0, 179);
-    --background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
+    --background-image-blank: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
+    --background-image: url("img/tv_guide.png");
 }
 
 body {
@@ -30,6 +31,17 @@ a:link {
 
 main {
     background: var(--background-image);
+    background-position: top;
+    background-size: 100%;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+guide {
+    background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
     background-position: top;
     background-size: 100%;
     width: 800px;
@@ -119,9 +131,13 @@ li .num {
     position: absolute;
     bottom: -6%;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: right;
     color: var(--main-colour);
+    display: inline;
+    overflow: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
 }
 
 .guidelisting {
@@ -136,6 +152,10 @@ li .num {
     position: relative;
 }
 
+.guidelisting li {
+    font-family: 'ZurichTV';
+}
+
 .titles {
     position: absolute;
     top: -20%;
@@ -145,10 +165,17 @@ li .num {
     text-align: left;
     color: var(--main-colour);
 }
-
+/* Font Families */
 @font-face {
     font-family: 'Zurich';
     src: url('Zurich Bold Extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZurichTV';
+    src: url('Zurich Bold Condensed.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
