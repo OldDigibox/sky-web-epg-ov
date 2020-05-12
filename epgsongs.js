@@ -28,7 +28,12 @@ const playlist = [{
 let nowPlaying = null;
 const player = document.getElementById("player"); // Get Audio Element
 player.autoplay = true;
-player.addEventListener("ended", selectRandom); // Run function when song ends
+
+myAudio.addEventListener("ended", function () {
+    myAudio.currentTime = 0;
+    console.log(`${selection} ended`);
+    player.addEventListener("ended", selectRandom); // Run function when song ends
+});
 
 function selectRandom() {
     // destructure object because all we want is the song array
