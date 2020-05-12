@@ -28,6 +28,7 @@ const playlist = [{
 let nowPlaying = null;
 const player = document.getElementById("player"); // Get Audio Element
 player.autoplay = true;
+player = new Date();
 
 player.addEventListener("ended", function () {
     player.currentTime = 0;
