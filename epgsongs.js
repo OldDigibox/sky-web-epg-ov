@@ -29,8 +29,8 @@ let nowPlaying = null;
 const player = document.getElementById("player"); // Get Audio Element
 player.autoplay = true;
 
-myAudio.addEventListener("ended", function () {
-    myAudio.currentTime = 0;
+player.addEventListener("ended", function () {
+    player.currentTime = 0;
     console.log(`${selection} ended`);
     player.addEventListener("ended", selectRandom); // Run function when song ends
 });
