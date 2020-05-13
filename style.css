@@ -79,6 +79,12 @@ $('id = "guide"') {
     position: relative;
 }
 
+button {
+    background: white;
+    border: none !important;
+    font-size: 0;
+}
+
     .menulisting li {
         width: 100%;
         height: 31.5px;
