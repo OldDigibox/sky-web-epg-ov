@@ -17,6 +17,14 @@
     --background-image: url("img/tv_guide.png");
 }
 
+.bground1 {
+    background-image: url("img/tv_guide.png");
+}
+
+.bground2 {
+    background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
+}
+
 body {
     display: flex;
     align-items: center;
