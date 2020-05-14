@@ -20,6 +20,12 @@ function toPage(frompage, topage) {
         case 'adult':
             $('main').addClass('bground2');
             break;
+        case 'entertainment':
+            $('main').addClass('bground2');
+            break;
+        case 'boxoffice':
+            $('main').addClass('boxoffice');
+            break;
     }
 
 

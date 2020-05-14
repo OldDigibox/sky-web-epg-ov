@@ -25,6 +25,10 @@
     background-image: url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg');
 }
 
+.boxoffice {
+    background-image: url('img/box_office.png');
+}
+
 body {
     display: flex;
     align-items: center;
