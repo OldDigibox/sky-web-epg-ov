@@ -159,7 +159,7 @@ li .num {
     height: 410px;
     margin-top: auto;
     margin-bottom: auto;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     user-select: none;
@@ -192,4 +192,131 @@ li .num {
     src: url('Zurich Bold Condensed.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Regular'), url('HelveticaNeueBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Regular'), url('Helvetica 76 Bold Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Regular'), url('HelveticaNeueBlackItalic 1.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue 66 Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue 66 Medium Italic'), url('HelveticaNeueMediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Black'), url('Helvetica95Black.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 25 UltraLight Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 25 UltraLight Regular'), url('Helvetica25UltraLight_22433.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 35 Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 35 Thin Regular'), url('Helvetica35Thin_22435.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 45 Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 45 Light Regular'), url('Helvetica45Light_22437.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 55 Roman Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 55 Roman Regular'), url('Helvetica55Roman_22439.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 65 Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 65 Medium Regular'), url('Helvetica65Medium_22443.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 25 UltraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 25 UltraLight Italic'), url('Helvetica26UltraLightItalic_22434.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 35 Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 35 Thin Italic'), url('Helvetica36ThinItalic_22436.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 45 Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 45 Light Italic'), url('Helvetica46LightItalic_22438.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 55 Roman Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 55 Roman Italic'), url('Helvetica56Italic_22440.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 65 Medium Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 65 Medium Bold'), url('Helvetica85Heavy_22449.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Helvetica 65 Medium Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica 65 Medium Bold Italic'), url('Helvetica86HeavyItalic_22450.woff') format('woff');
 }

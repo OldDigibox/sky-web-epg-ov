@@ -1,5 +1,6 @@
 function toPage(frompage, topage) {
     $(".menulisting#" + frompage).css("display", "none");
     $(".menulisting#" + topage).css("display", "flex");
-    $('adult').toggleClass('bground2')
+    $('main').toggleClass('bground2');
+    $('more').toggleClass('bground2');
 }
