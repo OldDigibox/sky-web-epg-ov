@@ -163,6 +163,7 @@ li .num {
 .guidelisting {
     width: 150%;
     height: 410px;
+    margin: 1px 0px; 
     margin-top: auto;
     margin-bottom: auto;
     display: inline-flex;
@@ -170,15 +171,18 @@ li .num {
     align-items: center;
     user-select: none;
     position: relative;
+    list-style-type: none;
 }
 
 .guidelisting li {
     font-family: 'ZurichTV';
+    margin: 1px 0px;
+    list-style-type: none;
 }
 
 .titles {
     position: absolute;
-    top: -20%;
+    top: -15%;
     left: 5%;
     width: 100%;
     font-size: 2rem;

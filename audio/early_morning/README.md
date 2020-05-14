@@ -1,2 +1,2 @@
 # Early Morning Set
-This set is played at 2AM GMT to 6AM GMT.
+This set is played at 2AM to 6AM.

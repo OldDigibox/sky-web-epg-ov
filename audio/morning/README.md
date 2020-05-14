@@ -1,2 +1,2 @@
 # Morning Set
-This set is played at 6AM GMT to 11AM GMT.
+This set is played at 6AM to 11AM.
