@@ -17,6 +17,7 @@
     --background-image: url("img/tv_guide.png");
 }
 
+/* Backgrounds for pages */
 .bground1 {
     background-image: url("img/tv_guide.png");
 }
@@ -27,6 +28,14 @@
 
 .boxoffice {
     background-image: url('img/box_office.png');
+}
+
+.services {
+    background-image: url('img/services.png');
+}
+
+.interactive {
+    background-image: url('img/interactive.png')
 }
 
 body {

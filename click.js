@@ -26,6 +26,9 @@ function toPage(frompage, topage) {
         case 'boxoffice':
             $('main').addClass('boxoffice');
             break;
+        case 'services':
+            $('main').addClass('services');
+            break;
     }
 
 

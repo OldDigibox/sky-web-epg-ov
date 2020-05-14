@@ -400,17 +400,18 @@
                 <a>Favourites</a>
             </div>
         </section>
+        <!--Box Office-->
         <section class="menulisting" id="boxoffice" name="boxoffice">
             <li>
                 <div class="num">1</div>
-                    MOVIES BY START TIME
+                MOVIES BY START TIME
             </li>
             <li>
                 <div class="num">2</div>
                 MOVIES A-Z
             </li>
             <li>
-            <div class="num">3</div>
+                <div class="num">3</div>
                 NEW MOVIES
             </li>
             <li>
@@ -429,6 +430,53 @@
                 <div class="num">7</div>
                 ADULT MOVIES
             </li>
+            <div class="links">
+                <a onclick="toPage('boxoffice', 'main')">Go Left</a>
+                <a onclick="toPage('boxoffice', 'services')">Go Right</a>
+                <a>Anytime</a>
+                <a>Planner</a>
+                <a>A-Z</a>
+                <a>Favourites</a>
+            </div>
+        </section>
+        <!--Services-->
+        <section class="menulisting" id="services">
+            <li>
+                <div class="num" onclick="window.location.href = 'https://olddigibox.github.io/sky-web-epg/video/using_your_sky_box.mp4'">1</div>
+                USING YOUR SKY BOX
+            </li>
+            <li>
+                <div class="num">2</div>
+                TELEPHONE NUMBERS
+            </li>
+            <li>
+                <div class="num">3</div>
+                PARENTAL CONTROL
+            </li>
+            <li>
+                <div class="num">4</div>
+                SYSTEM SETUP
+            </li>
+            <li>
+                <div class="num">5</div>
+                AUTO STANDBY
+            </li>
+            <li>
+                <div class="num">6</div>
+                FAVOURITE CHANNELS
+            </li>
+            <li>
+                <div class="num">7</div>
+                OTHER CHANNELS
+            </li>
+            <div class="links">
+                <a onclick="toPage('services', 'boxoffice')">Go Left</a>
+                <a onclick="toPage('services', 'interactive')">Go Right</a>
+                <a>Anytime</a>
+                <a>Planner</a>
+                <a>A-Z</a>
+                <a>Favourites</a>
+            </div>
         </section>
     </main>
     <!--<audio id="player" allow="autoplay" autoplay>
