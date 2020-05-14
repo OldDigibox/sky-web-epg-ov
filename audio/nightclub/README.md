@@ -1,2 +1,2 @@
 # Nightclub Set
-This set is played at 11PM GMT to 2AM.
+This set is played at 11PM to 12AM.

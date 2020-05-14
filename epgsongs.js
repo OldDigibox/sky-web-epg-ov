@@ -1,6 +1,6 @@
 const playlist = [{
     name: 'earlyMorning',
-    times: [2, 3, 4, 5, 6],
+    times: [0, 1, 2, 3, 4, 5, 6],
     songs: ["audio/early_morning/cacoon.mp3", "audio/early_morning/reggae_paradise.mp3", "audio/early_morning/universal_dream.mp3", "audio/exclusive/mellow.mp3", "audio/exclusive/bridge.mp3", "audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"]
 },
 {
@@ -20,7 +20,7 @@ const playlist = [{
 },
 {
     name: 'nightclub',
-    times: [22, 23, 0, 1],
+    times: [22, 23],
     songs: ["audio/exclusive/lo-fi_night.mp3", "audio/exclusive/bridge.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/prologue.mp3", "audio/exclusive/eclectic_attraction.mp3", "audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3"]
 }
 ]
