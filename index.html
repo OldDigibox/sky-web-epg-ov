@@ -3,12 +3,12 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="backgrounds.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky Guide</title>
 </head>
 <body>
+    <script src="click.js"></script>
     <main>
         <iframe allow="autoplay" style="display:none" id="player" type="audio/mpeg">
         </iframe>
@@ -215,97 +215,99 @@
             </div>
         </section>
         <!--Channel Guide -> Entertainment-->
-        <section class="menulisting" id="entertainment">
-            <div class="titles">ENTERTAINMENT</div>
-            <div class="guidelisting" onclick="window.location.href = 'https://www.bbc.co.uk/bbcone'">
-                <li>
-                    101   BBC One
-                </li>
-                <li>
-                    View on BBC iPlayer
-                </li>
-            </div>
-            <div class="guidelisting" onclick="window.location.href = 'https://bbc.co.uk/bbctwo'">
-                <li>
-                    102   BBC Two
-                </li>
-                <li>
-                    View on BBC iPlayer
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    103   ITV
-                </li>
-                <li>
-                    View on ITV Hub
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    104   Channel 4
-                </li>
-                <li>
-                    View on All4
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    105   Channel 5
-                </li>
-                <li>
-                    View on My5
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    106   Sky One
-                </li>
-                <li>
-                    View on Sky Go
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    107   Sky Witness
-                </li>
-                <li>
-                    View on Sky Go
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    108   Sky Atlantic
-                </li>
-                <li>
-                    View on Sky Go
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    109   W
-                </li>
-                <li>
-                    View on UKTV Play
-                </li>
-            </div>
-            <div class="guidelisting">
-                <li>
-                    110   GOLD
-                </li>
-                <li>
-                    View on UKTV Play
-                </li>
-            </div>
-            <div class="links">
-                <a>Page Down</a>
-                <a style="background-color:yellow; color:black" onclick="toPage('guide', 'main')">BACK UP</a>
-                <a>Anytime</a>
-                <a>Planner</a>
-                <a>A-Z</a>
-                <a>Favourites</a>
-            </div>
-        </section>
+        <guide>
+            <section class="menulisting" id="entertainment">
+                <div class="titles">ENTERTAINMENT</div>
+                <div class="guidelisting" onclick="window.location.href = 'https://www.bbc.co.uk/bbcone'">
+                    <li>
+                        101   BBC One
+                    </li>
+                    <li>
+                        View on BBC iPlayer
+                    </li>
+                </div>
+                <div class="guidelisting" onclick="window.location.href = 'https://bbc.co.uk/bbctwo'">
+                    <li>
+                        102   BBC Two
+                    </li>
+                    <li>
+                        View on BBC iPlayer
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        103   ITV
+                    </li>
+                    <li>
+                        View on ITV Hub
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        104   Channel 4
+                    </li>
+                    <li>
+                        View on All4
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        105   Channel 5
+                    </li>
+                    <li>
+                        View on My5
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        106   Sky One
+                    </li>
+                    <li>
+                        View on Sky Go
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        107   Sky Witness
+                    </li>
+                    <li>
+                        View on Sky Go
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        108   Sky Atlantic
+                    </li>
+                    <li>
+                        View on Sky Go
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        109   W
+                    </li>
+                    <li>
+                        View on UKTV Play
+                    </li>
+                </div>
+                <div class="guidelisting">
+                    <li>
+                        110   GOLD
+                    </li>
+                    <li>
+                        View on UKTV Play
+                    </li>
+                </div>
+                <div class="links">
+                    <a>Page Down</a>
+                    <a style="background-color:yellow; color:black" onclick="toPage('guide', 'main')">BACK UP</a>
+                    <a>Anytime</a>
+                    <a>Planner</a>
+                    <a>A-Z</a>
+                    <a>Favourites</a>
+                </div>
+            </section>
+        </guide>
         <!--Channel Guide -> Adult-->
         <section class="menulisting" id="adult">
             <div class="titles">ADULT</div>
