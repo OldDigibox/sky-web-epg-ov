@@ -69,9 +69,13 @@ main {
 }
 
 button {
-    background: white;
+    background: transparent;
     border: none !important;
-    font-size: 0;
+    font-size: 20;
+    position: absolute;
+    top: -13%;
+    left: 30%;
+    text-align: right;
 }
 
     .menulisting li {

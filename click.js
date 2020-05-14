@@ -1,10 +1,26 @@
 function toPage(frompage, topage) {
-    $(`.menulisting#${frompage}`).css("display", "none");
-    $(`.menulisting#${topage}`).css("display", "flex");
-}
+    $(".menulisting#" + frompage).css("display", "none");
+    $(".menulisting#" + topage).css("display", "flex");
 
-function blankBackground() {
-    var useBlank = document.getElementsByTagName('guide')
-    var body = document.getElementsByTagName("body")[0]
-    useBlank.style.body.backgroundImage = "url('https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg')";
+    $('main').removeClass();
+
+    switch (topage) {
+        case 'main':
+            $('main').addClass('bground1');
+            break;
+        case 'more':
+            $('main').addClass('bground1');
+            break;
+        case 'guide':
+            $('main').addClass('bground2');
+            break;
+        case 'custom':
+            $('main').addClass('bground1');
+            break;
+        case 'adult':
+            $('main').addClass('bground2');
+            break;
+    }
+
+
 }
