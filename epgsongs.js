@@ -1,12 +1,12 @@
 const playlist = [{
     name: 'earlyMorning',
     times: [2, 3, 4, 5, 6],
-    songs: ["audio/exclusive/mellow.mp3", "audio/exclusive/bridge.mp3", "audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"]
+    songs: ["audio/early_morning/universal_dream.mp3", "audio/exclusive/mellow.mp3", "audio/exclusive/bridge.mp3", "audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"]
 },
 {
     name: 'morning',
     times: [6, 7, 8, 9],
-    songs: ["audio/exclusive/bridge.mp3", "audio/morning/1998_trk04.mp3", "audio/morning/cool_groovings.mp3", "audio/morning/game_on.mp3", "audio/morning/half_pipe.mp3", "audio/morning/hope.mp3", "audio/morning/internationale!.mp3", "audio/morning/move_it.mp3", "audio/morning/muted.mp3", "audio/morning/no_saints.mp3", "audio/morning/swingin_partay.mp3"]
+    songs: ["audio/morning/universal_dream.mp3", "audio/exclusive/bridge.mp3", "audio/morning/1998_trk04.mp3", "audio/morning/cool_groovings.mp3", "audio/morning/game_on.mp3", "audio/morning/half_pipe.mp3", "audio/morning/hope.mp3", "audio/morning/internationale!.mp3", "audio/morning/move_it.mp3", "audio/morning/muted.mp3", "audio/morning/no_saints.mp3", "audio/morning/swingin_partay.mp3"]
 },
 {
     name: 'primetime',
@@ -16,7 +16,7 @@ const playlist = [{
 {
     name: 'daytime',
     times: [11, 12, 13, 14, 15, 16, 17, 18],
-    songs: ["audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
+    songs: ["audio/daytime/universal_dream.mp3", "audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
 },
 {
     name: 'nightclub',

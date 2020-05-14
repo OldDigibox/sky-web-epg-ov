@@ -48,17 +48,6 @@ main {
     justify-content: center;
 }
 
-$('id = "guide"') {
-    background-image: url("https://media.discordapp.net/attachments/649968233553723405/709086018942402631/image1.jpg");
-    background-position: top;
-    background-size: 100%;
-    width: 800px;
-    height: 600px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
 .menulisting[id] {
     display: none;
 }

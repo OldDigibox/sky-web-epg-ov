@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky Guide</title>
+    <script src="click.js"></script>
 </head>
 <body>
-    <script src="click.js"></script>
     <main>
         <iframe allow="autoplay" style="display:none" id="player" type="audio/mpeg">
         </iframe>
         <!--Landing Page-->
         <section class="menulisting" id="main">
-            <li onclick="toPage('main', 'guide')">
+            <li onclick="toPage('main', 'guide'); blankBackground()">
                 <div class="num">1</div>
                 ALL CHANNELS
             </li>
