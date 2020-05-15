@@ -160,6 +160,10 @@ li .num {
     white-space: nowrap;
 }
 
+.links a:hover {
+    color: var(--font-colour-hover)
+}
+
 .guidelisting {
     width: 150%;
     height: 410px;

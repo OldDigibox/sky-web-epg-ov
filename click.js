@@ -29,6 +29,9 @@ function toPage(frompage, topage) {
         case 'services':
             $('main').addClass('services');
             break;
+        case 'interactive':
+            $('main').addClass('interactive');
+            break;
     }
 
 
