@@ -32,7 +32,7 @@ player.autoplay = true;
 player.addEventListener("ended", function () {
     player.currentTime = 0;
     console.log(`${selection} ended`);
-    player.addEventListener("ended", selectRandom); // Run function when song ends
+    selectRandom();
 });
 
 function selectRandom() {
