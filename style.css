@@ -184,6 +184,16 @@ li .num {
     list-style-type: none;
 }
 
+.time {
+    position: absolute;
+    top: -23%;
+    left: 5%;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+    color: var(--main-colour);
+}
+
 .titles {
     position: absolute;
     top: -15%;
