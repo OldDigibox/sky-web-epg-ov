@@ -182,23 +182,24 @@ li .num {
 }
 
 .guidelisting {
-    width: 150%;
+    width: 140%;
     height: 410px;
-    margin: 1px 0px; 
     margin-top: auto;
     margin-bottom: auto;
     display: inline-flex;
     flex-direction: row;
-    align-items: center;
     user-select: none;
     position: relative;
-    list-style-type: none;
+    align-items: stretch;
+    align-content: safe center;
 }
 
 .guidelisting li {
     font-family: 'ZurichTV';
-    margin: 1px 0px;
-    list-style-type: none;
+    margin: 4px;
+    align-self: auto;
+    align-items: stretch;
+    align-content: safe center;
 }
 
 .time {

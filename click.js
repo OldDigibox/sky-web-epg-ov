@@ -35,6 +35,12 @@ function toPage(frompage, topage) {
         case 'systemsetup':
             $('main').addClass('bground2');
             break;
+        case 'ent2':
+            $('main').addClass('bground2');
+            break;
+        case 'ent3':
+            $('main').addClass('bground2');
+            break;
     }
 
 
