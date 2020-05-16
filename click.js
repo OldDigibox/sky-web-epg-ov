@@ -32,6 +32,9 @@ function toPage(frompage, topage) {
         case 'interactive':
             $('main').addClass('interactive');
             break;
+        case 'systemsetup':
+            $('main').addClass('bground2');
+            break;
     }
 
 
