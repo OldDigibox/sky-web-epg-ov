@@ -41,6 +41,9 @@ function toPage(frompage, topage) {
         case 'ent3':
             $('main').addClass('bground2');
             break;
+        case 'kids':
+            $('main').addClass('bground2');
+            break;
     }
 
 
