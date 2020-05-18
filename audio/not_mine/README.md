@@ -1,0 +1,6 @@
+# Not Mine
+Not a set, just a folder.
+
+NO THEFT IS INTENDED WITH THESE TRACKS BEING HOSTED HERE. IF YOU WANT A TRACK TAKEN DOWN, PLEASE LET US KNOW IN THE ISSUES PAGE.
+
+"d.i.y" © 2007 EA Games Soundtrack. All rights reserved.

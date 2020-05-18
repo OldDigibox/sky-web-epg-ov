@@ -1,7 +1,7 @@
 const playlist = [{
     name: 'earlyMorning',
     times: [0, 1, 2, 3, 4, 5, 6],
-    songs: ["audio/early_morning/earth.mp3", "audio/early_morning/cacoon.mp3", "audio/early_morning/reggae_paradise.mp3", "audio/early_morning/universal_dream.mp3", "audio/exclusive/mellow.mp3", "audio/exclusive/bridge.mp3", "audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"]
+    songs: ["audio/not_mine/diy.mp3", "audio/early_morning/earth.mp3", "audio/early_morning/cacoon.mp3", "audio/early_morning/reggae_paradise.mp3", "audio/early_morning/universal_dream.mp3", "audio/exclusive/mellow.mp3", "audio/exclusive/bridge.mp3", "audio/early_morning/1998_trk04.mp3", "audio/early_morning/adagio.mp3", "audio/early_morning/all_obsessed.mp3", "audio/early_morning/no_saints.mp3", "audio/early_morning/swingin_partay.mp3"]
 },
 {
     name: 'morning',
@@ -16,12 +16,12 @@ const playlist = [{
 {
     name: 'daytime',
     times: [11, 12, 13, 14, 15, 16, 17, 18],
-    songs: ["audio/daytime/prodigal_big_beat.mp3", "audio/daytime/saddy.mp3", "audio/daytime/bobs_hi-fi.mp3", "audio/daytime/summer_vibe.mp3", "audio/daytime/universal_dream.mp3", "audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
+    songs: ["audio/not_mine/diy.mp3", "audio/daytime/prodigal_big_beat.mp3", "audio/daytime/saddy.mp3", "audio/daytime/bobs_hi-fi.mp3", "audio/daytime/summer_vibe.mp3", "audio/daytime/universal_dream.mp3", "audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
 },
 {
     name: 'nightclub',
     times: [22, 23],
-    songs: ["audio/nightclub/euphoric.mp3", "audio/nightclub/f-1_gladiators.mp3", "audio/nightclub/positive_change.mp3", "audio/nightclub/set_me_free.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/bridge.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/prologue.mp3", "audio/exclusive/eclectic_attraction.mp3", "audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3"]
+    songs: ["audio/not_mine/diy.mp3", "audio/nightclub/euphoric.mp3", "audio/nightclub/f-1_gladiators.mp3", "audio/nightclub/positive_change.mp3", "audio/nightclub/set_me_free.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/bridge.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/prologue.mp3", "audio/exclusive/eclectic_attraction.mp3", "audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3"]
 }
 ]
 

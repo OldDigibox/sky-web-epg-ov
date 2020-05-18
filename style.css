@@ -220,6 +220,7 @@ li .num {
         width: 130%;
         margin: 10px;
         margin-top: 0px !important;
+        margin-bottom: 0px !important;
         align-self: auto;
         align-items: stretch;
         align-content: safe center;
