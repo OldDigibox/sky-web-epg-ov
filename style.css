@@ -194,29 +194,32 @@ li .num {
     align-content: safe center;
 }
 
-.guidelisting li {
-    font-family: 'ZurichTV';
-    margin: 4px;
-    align-self: auto;
-    align-items: stretch;
-    align-content: safe center;
-}
+    .guidelisting li {
+        font-family: 'ZurichTV';
+        margin: 4px;
+        margin-top: 0px !important;
+        align-self: auto;
+        align-items: stretch;
+        align-content: safe center;
+    }
 
 .detailslisting {
     width: 150%;
     height: 410px;
-    margin-top: auto;
+    margin-top: 0px!important;
     margin-bottom: auto;
     display: inline-flex;
     flex-direction: row;
     user-select: none;
-    position: relative;
+    position: center;
     align-items: stretch;
     align-content: safe center;
 }
 
     .detailslisting li {
-        margin: 7px;
+        width: 130%;
+        margin: 10px;
+        margin-top: 0px !important;
         align-self: auto;
         align-items: stretch;
         align-content: safe center;
