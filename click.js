@@ -44,6 +44,9 @@ function toPage(frompage, topage) {
         case 'kids':
             $('main').addClass('bground2');
             break;
+        case 'systemdetails':
+            $('main').addClass('bground2');
+            break;
     }
 
 

@@ -202,6 +202,31 @@ li .num {
     align-content: safe center;
 }
 
+.detailslisting {
+    width: 150%;
+    height: 410px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    flex-direction: row;
+    user-select: none;
+    position: relative;
+    align-items: stretch;
+    align-content: safe center;
+}
+
+    .detailslisting li {
+        margin: 7px;
+        align-self: auto;
+        align-items: stretch;
+        align-content: safe center;
+    }
+
+        .detailslisting li:hover {
+            background: var( --main-colour);
+            color: var(--font-colour);
+        }
+
 .time {
     position: absolute;
     top: -23%;
