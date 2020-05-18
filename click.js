@@ -53,6 +53,21 @@ function toPage(frompage, topage) {
         case 'otherchannels':
             $('main').addClass('bground2');
             break;
+        case 'radio2':
+            $('main').addClass('bground2');
+            break;
+        case 'radio3':
+            $('main').addClass('bground2');
+            break;
+        case 'radio4':
+            $('main').addClass('bground2');
+            break;
+        case 'radio5':
+            $('main').addClass('bground2');
+            break;
+        case 'radio6':
+            $('main').addClass('bground2');
+            break;
     }
 
 
