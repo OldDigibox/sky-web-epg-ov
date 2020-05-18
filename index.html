@@ -66,7 +66,7 @@
         </section>
         <!--More Page-->
         <section class="menulisting" id="more">
-            <li>
+            <li onclick="toPage('more', 'radio')">
                 <div class="num">1</div>
                 RADIO
             </li>
@@ -590,6 +590,15 @@
                 <a>Favourites</a>
             </div>
         </section>
+        <section class="menulisting" id="radio">
+            <div class="time" id="datetime"></div>
+            <div class="titles">RADIO</div>
+            <div class="guidelisting">
+                <li>
+                    🔈   0101   BBC Radio 1
+                </li>
+            </div>
+        </section>
         <!--Channel Guide -> Adult-->
         <section class="menulisting" id="adult">
             <div class="time" id="datetime"></div>
@@ -727,7 +736,7 @@
                 <div class="num">6</div>
                 FAVOURITE CHANNELS
             </li>
-            <li>
+            <li onclick="toPage('services', 'otherchannels')">
                 <div class="num">7</div>
                 OTHER CHANNELS
             </li>
@@ -759,7 +768,7 @@
                 <div class="num">4</div>
                 ADD CHANNELS
             </li>
-            <li  onclick="toPage('systemsetup', 'systemdetails')">
+            <li onclick="toPage('systemsetup', 'systemdetails')">
                 <div class="num">5</div>
                 SYSTEM DETAILS
             </li>
@@ -842,6 +851,45 @@
             <div class="back">
                 <a>Press</a>
                 <a style="background-color: yellow; color: black" onclick="toPage('systemdetails', 'systemsetup')">BACK UP</a>
+                <a>to return</a>
+            </div>
+        </section>
+        <section class="menulisting" id="otherchannels">
+            <div class="time" id="dateimte"></div>
+            <div class="titles">OTHER CHANNELS</div>
+            <div class="guidelisting" onclick="window.location.href = 'https://brysonrecords.bandcamp.com/album/sky-web-epg'">
+                <li>
+                    🔈   EPG Background Audio.
+                </li>
+            </div>
+            <div class="guidelisting" onclick="window.location.href = 'https://www.youtube.com/channel/UCSf3jsDT5AxHeGxBZ5YEiwQ'">
+                <li>
+                    Chelmsford IT
+                </li>
+            </div>
+            <div class="guidelisting" onclick="window.location.href = 'https://www.youtube.com/channel/UCIFzRjg4GM00nRVrNFrOb1g'">
+                <li>
+                    II.Super_Legendary.II (ISLI)
+                </li>
+            </div>
+            <div class="guidelisting" onclick="window.location.href = 'https://www.youtube.com/channel/UCPUMaLT4zej0fSHiity3P5w'">
+                <li>
+                    Betty Macaulay
+                </li>
+            </div>
+            <div class="guidelisting" onclick="window.location.href = 'https://www.youtube.com/channel/UCXFM2yYtQ3NmMcD33OFZQKg'">
+                <li>
+                    OldDigibox
+                </li>
+            </div>
+            <div class="guidelisting" onclick="window.location.href = 'https://www.youtube.com/channel/UCumdQGQazskCznTlAchiOjQ'">
+                <li>
+                    Sky Archive
+                </li>
+            </div>
+            <div class="back">
+                <a>Press</a>
+                <a style="background-color: yellow; color: black" onclick="toPage('otherchannels', 'services')">BACK UP</a>
                 <a>to return</a>
             </div>
         </section>

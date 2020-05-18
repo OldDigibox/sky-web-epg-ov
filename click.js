@@ -47,6 +47,12 @@ function toPage(frompage, topage) {
         case 'systemdetails':
             $('main').addClass('bground2');
             break;
+        case 'radio':
+            $('main').addClass('bground2');
+            break;
+        case 'otherchannels':
+            $('main').addClass('bground2');
+            break;
     }
 
 
