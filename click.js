@@ -68,6 +68,9 @@ function toPage(frompage, topage) {
         case 'radio6':
             $('main').addClass('bground2');
             break;
+        case 'movies':
+            $('main').addClass('bground2');
+            break;
     }
 
 
