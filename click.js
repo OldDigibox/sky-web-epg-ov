@@ -72,7 +72,10 @@ function toPage(frompage, topage) {
             $('main').addClass('bground2');
             break;
         case 'fyi':
-            $('main').addClass('bground2')
+            $('main').addClass('bground2');
+            break;
+        case 'skybox':
+            $('main').addClass('bground2');
             break;
     }
 

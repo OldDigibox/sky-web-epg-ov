@@ -290,7 +290,7 @@ li .num {
 /* Large Text Box */
 
 .ltb {
-    width: 100%;
+    width: 150%;
     height: 100%;
     display: flex;
     flex-direction: column;
