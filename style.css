@@ -287,6 +287,39 @@ li .num {
         justify-content: center;
     }
 
+/* Large Text Box */
+
+.ltb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .ltb header {
+        width: 100%;
+        height: 31.5px;
+        background: var(--main-colour-hover);
+        list-style-type: none;
+        color: var(--font-colour-hover);
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .ltb main {
+        min-height: 150px;
+        height: auto;
+        background: var(--main-colour);
+        color: var(--font-colour);
+        font-size: 1.6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 /* Font Families */
 @font-face {
     font-family: 'Zurich';
