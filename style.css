@@ -276,7 +276,6 @@ li .num {
     }
 
     .fyi main {
-        height: 150px;
         background: var(--main-colour);
         color: var(--font-colour);
         font-size: 1.6rem;
