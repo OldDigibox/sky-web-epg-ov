@@ -69,6 +69,10 @@ main {
     display: flex;
 }
 
+.menulisting#fyi {
+    width: 87%;
+}
+
 .menulisting {
     width: 65%;
     height: 410px;
@@ -112,7 +116,7 @@ button {
 
 li .num {
     background: var(--sub-colour);
-    width: 60px;
+    width: 70px;
     height: 100%;
     margin: 0px 10px 0px 5px;
     color: var(--listnum-colour);
@@ -249,6 +253,39 @@ li .num {
     text-align: left;
     color: var(--main-colour);
 }
+
+/* FYI Box */
+
+.fyi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .fyi header {
+        width: 100%;
+        height: 31.5px;
+        background: var(--main-colour-hover);
+        list-style-type: none;
+        color: var(--font-colour-hover);
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .fyi main {
+        height: 150px;
+        background: var(--main-colour);
+        color: var(--font-colour);
+        font-size: 1.6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 /* Font Families */
 @font-face {
     font-family: 'Zurich';
