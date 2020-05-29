@@ -77,6 +77,9 @@ function toPage(frompage, topage) {
         case 'skybox':
             $('main').addClass('bground2');
             break;
+        case 'interactive2':
+            $('main').addClass('bground2');
+            break;
     }
 
 
