@@ -289,21 +289,31 @@ li .num {
 
 /*Search and Scan Bar*/
 .sas {
-    width: 100%;
+    width: 150%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
     .sas header {
         width: 100%;
         height: 31.5px;
-        background: var(--main-colour-hover);
+        background-color: white;
         list-style-type: none;
         color: var(--font-colour-hover);
         text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .sas footer {
+        width: 100%;
+        height: 31.5px;
+        background-color: white;
+        list-style-type: none;
+        color: var(--font-colour-hover);
+        text-align: right;
         font-size: 1.6rem;
     }
 

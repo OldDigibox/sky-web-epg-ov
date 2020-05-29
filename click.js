@@ -78,7 +78,10 @@ function toPage(frompage, topage) {
             $('main').addClass('bground2');
             break;
         case 'interactive2':
-            $('main').addClass('bground2');
+            $('main').addClass('interactive');
+            break;
+        case 'sastest':
+            $('main').addClass('interactive');
             break;
     }
 
