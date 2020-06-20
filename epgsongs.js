@@ -6,7 +6,7 @@ const playlist = [{
     {
         name: 'morning',
         times: [6, 7, 8, 9],
-        songs: ["audio/morning/el_castillo.mp3", "audio/exclusive/gritty_decision.mp3", "audio/morning/universal_dream.mp3", "audio/exclusive/bridge.mp3", "audio/morning/1998_trk04.mp3", "audio/morning/cool_groovings.mp3", "audio/morning/game_on.mp3", "audio/morning/half_pipe.mp3", "audio/morning/hope.mp3", "audio/morning/internationale!.mp3", "audio/morning/move_it.mp3", "audio/morning/muted.mp3", "audio/morning/no_saints.mp3", "audio/morning/swingin_partay.mp3"]
+        songs: ["audio/daytime/head_in_the_clouds.mp3", "audio/morning/el_castillo.mp3", "audio/exclusive/gritty_decision.mp3", "audio/morning/universal_dream.mp3", "audio/exclusive/bridge.mp3", "audio/morning/1998_trk04.mp3", "audio/morning/cool_groovings.mp3", "audio/morning/game_on.mp3", "audio/morning/half_pipe.mp3", "audio/morning/hope.mp3", "audio/morning/internationale!.mp3", "audio/morning/move_it.mp3", "audio/morning/muted.mp3", "audio/morning/no_saints.mp3", "audio/morning/swingin_partay.mp3"]
 },
 {
     name: 'primetime',
@@ -16,7 +16,7 @@ const playlist = [{
 {
     name: 'daytime',
     times: [11, 12, 13, 14, 15, 16, 17, 18],
-    songs: ["audio/daytime/viva.mp3", "audio/daytime/reflector2.mp3", "audio/daytime/muted.mp3", "audio/daytime/el_castillo.mp3", "audio/exclusive/gritty_decision.mp3", "audio/daytime/prodigal_big_beat.mp3", "audio/daytime/saddy.mp3", "audio/daytime/bobs_hi-fi.mp3", "audio/daytime/summer_vibe.mp3", "audio/daytime/universal_dream.mp3", "audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
+    songs: ["audio/daytime/head_in_the_clouds.mp3", "audio/daytime/viva.mp3", "audio/daytime/reflector2.mp3", "audio/daytime/muted.mp3", "audio/daytime/el_castillo.mp3", "audio/exclusive/gritty_decision.mp3", "audio/daytime/prodigal_big_beat.mp3", "audio/daytime/saddy.mp3", "audio/daytime/bobs_hi-fi.mp3", "audio/daytime/summer_vibe.mp3", "audio/daytime/universal_dream.mp3", "audio/exclusive/ocean.mp3", "audio/daytime/1998_trk04.mp3", "audio/exclusive/boombox.mp3", "audio/daytime/2009_trk7.mp3", "audio/daytime/4.mp3", "audio/daytime/connected.mp3", "audio/daytime/funkerama.mp3", "audio/daytime/gritty_groove.mp3", "audio/daytime/internationale!(remix).mp3", "audio/daytime/no_saints.mp3", "audio/daytime/smooth_strings_trip.mp3", "audio/daytime/sunset.mp3", "audio/daytime/swingin_partay.mp3"]
 },
 {
     name: 'nightclub',
