@@ -123,12 +123,38 @@ li .num {
     text-align: center;
 }
 
+li .tele {
+    background: var(--sub-colour);
+    width: 300px;
+    height: 100%;
+    margin: 0px 10px 0px 5px;
+    color: var(--listnum-colour);
+    text-align: center;
+}
+
+.menulisting .telelisting {
+    width: 150%;
+    height: 31.5px;
+    margin: 2px 0px;
+    background: var(--main-colour);
+    list-style-type: none;
+    color: var(--font-colour);
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
 .menulisting li:hover {
     background: var(--main-colour-hover);
     color: var(--font-colour-hover);
 }
 
     .menulisting li:hover .num {
+        background: var(--sub-colour-hover);
+        color: var(--listnum-colour-hover);
+    }
+
+    .menulisting li:hover .tele {
         background: var(--sub-colour-hover);
         color: var(--listnum-colour-hover);
     }
@@ -143,6 +169,11 @@ li .num {
 }
 
     .menulisting li:focus .num {
+        background: var(--sub-colour-hover);
+        color: var(--listnum-colour-hover);
+    }
+
+    .menulisting li:focus .tele {
         background: var(--sub-colour-hover);
         color: var(--listnum-colour-hover);
     }
