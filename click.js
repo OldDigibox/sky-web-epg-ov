@@ -71,6 +71,9 @@ function toPage(frompage, topage) {
         case 'movies':
             $('main').addClass('bground2');
             break;
+        case 'movies2':
+            $('main').addClass('bground2');
+            break;
         case 'fyi':
             $('main').addClass('bground2');
             break;
