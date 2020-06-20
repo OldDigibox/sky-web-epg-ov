@@ -11,7 +11,7 @@ const playlist = [{
 {
     name: 'primetime',
     times: [19, 20, 21],
-    songs: ["audio/exclusive/gritty_decision.mp3", "audio/exclusive/sky_prologue.mp3", "audio/exclusive/rise_up.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/primetime.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/cine2020(edit).mp3", "audio/primetime/1998_trk04.mp3", "audio/primetime/apocalypse(remix).mp3", "audio/primetime/bondicular(remix).mp3", "audio/primetime/choir_of_impending_breakbeat.mp3", "audio/primetime/cine2000.mp3", "audio/primetime/kompressor(remix).mp3", "audio/primetime/no_saints.mp3", "audio/primetime/orchestral_hardcore(remix).mp3", "audio/primetime/orchestral_hardcore.mp3", "audio/primetime/quest.mp3", "audio/primetime/swingin_partay.mp3", "audio/primetime/the_trap.mp3"]
+    songs: ["audio/exclusive/gritty_decision.mp3", "audio/exclusive/sky_prologue.mp3", "audio/exclusive/rise_up.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/primetime.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/cine2020(edit).mp3", "audio/primetime/1998_trk04.mp3", "audio/primetime/apocalypse(remix).mp3", "audio/primetime/bondicular(remix).mp3", "audio/primetime/choir_of_impending_breakbeat.mp3", "audio/primetime/cine2000.mp3", "audio/primetime/kompressor(remix).mp3", "audio/primetime/no_saints.mp3", "audio/primetime/orchestral_hardcore(remix).mp3", "audio/primetime/orchestral_hardcore.mp3", "audio/primetime/quest.mp3", "audio/primetime/swingin_partay.mp3", "audio/primetime/the_trap.mp3", "audio/primetime/sosumi.mp3"]
 },
 {
     name: 'daytime',
