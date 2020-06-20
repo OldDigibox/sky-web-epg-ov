@@ -89,5 +89,6 @@ function toPage(frompage, topage) {
         case 'telephonenumbers':
             $('main').addClass('bground2');
             break;
+    }
 
 }
