@@ -83,7 +83,8 @@ function toPage(frompage, topage) {
         case 'sastest':
             $('main').addClass('interactive');
             break;
-    }
-
+        case 'telephonenumbers':
+            $('main').addClass('bground2');
+            break;
 
 }
