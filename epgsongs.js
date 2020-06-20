@@ -21,7 +21,7 @@ const playlist = [{
 {
     name: 'nightclub',
     times: [22, 23],
-    songs: ["audio/exclusive/gritty_decision.mp3", "audio/nightclub/euphoric.mp3", "audio/nightclub/f-1_gladiators.mp3", "audio/nightclub/positive_change.mp3", "audio/nightclub/set_me_free.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/bridge.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/prologue.mp3", "audio/exclusive/eclectic_attraction.mp3", "audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3"]
+    songs: ["audio/exclusive/gritty_decision.mp3", "audio/nightclub/euphoric.mp3", "audio/nightclub/f-1_gladiators.mp3", "audio/nightclub/positive_change.mp3", "audio/nightclub/set_me_free.mp3", "audio/exclusive/lo-fi_night.mp3", "audio/exclusive/bridge.mp3", "audio/exclusive/the_final_showdown.mp3", "audio/exclusive/prologue.mp3", "audio/exclusive/eclectic_attraction.mp3", "audio/nightclub/adagio.mp3", "audio/nightclub/apocalypse.mp3", "audio/nightclub/dance_9.mp3", "audio/nightclub/internationale!.mp3", "audio/nightclub/nu-soul_village(remix).mp3", "audio/nightclub/obsessive.mp3", "audio/nightclub/universe.mp3" "audio/primetime/sosumi.mp3"]
 }
 ]
 
