@@ -130,6 +130,8 @@ li .tele {
     margin: 0px 10px 0px 5px;
     color: var(--listnum-colour);
     text-align: right;
+    align-items: end;
+    justify-content: right;
 }
 
 .menulisting .telelisting {
