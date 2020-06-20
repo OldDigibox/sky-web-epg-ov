@@ -227,6 +227,7 @@ li .num {
         align-self: auto;
         align-items: stretch;
         align-content: safe center;
+        text-align: center;
     }
 
         .detailslisting li:hover {
